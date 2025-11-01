@@ -1,0 +1,22 @@
+[safe_haven]
+isin = "XS2115336336"
+percentage = 10
+allocated = 34
+
+[bond]
+isin = "LU2504532487"
+percentage = 35
+allocated = 137
+
+[stock]
+percentage = 55
+
+[stock_distributed]
+isin = "IE00BFNM3C07"
+percentage = 30
+allocated = 0
+
+[stock_accumulating]
+isin = "IE00BHZPJ569"
+percentage = 70
+allocated = 0

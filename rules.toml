@@ -1,22 +1,33 @@
-[safe_haven]
+[[asset]]
+type = "safe_haven"
+distributing = false
 isin = "XS2115336336"
 percentage = 10
-allocated = 34
+allocated = 34.338
 
-[bond]
+[[asset]]
+type = "bond"
+distributing = true
 isin = "LU2504532487"
 percentage = 35
-allocated = 137
+allocated = 171.37
 
-[stock]
+[[asset]]
+type = "stock"
+distributing = false
 percentage = 55
+allocated = 0
 
-[stock_distributed]
+[[asset.subtype]]
+type = "distributing"
+distributing = true
 isin = "IE00BFNM3C07"
 percentage = 30
-allocated = 0
+allocated = 73.9575
 
-[stock_accumulating]
+[[asset.subtype]]
+type = "accumulating"
+distributing = false
 isin = "IE00BHZPJ569"
 percentage = 70
-allocated = 0
+allocated = 189.95
